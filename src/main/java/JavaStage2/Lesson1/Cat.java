@@ -1,0 +1,33 @@
+package JavaStage2.Lesson1;
+
+public class Cat {
+    private String name;
+    private double maxHeight;      // максимальна€ высота на на которую может подн€тьс€ участник
+    private int maxRun;         // предельное рассто€ние непрерывного бега участника
+
+    public Cat(String name, double maxHeight, int maxRun) {
+        this.name = name;
+        this.maxHeight = maxHeight;
+        this.maxRun = maxRun;
+    }
+
+    public void run(int distance){
+        System.out.println(" от пробежал " + distance);
+    }
+
+    public void jump(double height){
+        System.out.println(" от подпрыгнул на " + height +"м.");
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public double getMaxHeight() {
+        return maxHeight;
+    }
+
+    public int getMaxRun() {
+        return maxRun;
+    }
+}
