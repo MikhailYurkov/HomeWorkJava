@@ -36,6 +36,7 @@ public class CalcEngine {
     }
 
     public void setOperator(String operator) {
+
         this.operator = operator;
     }
 
