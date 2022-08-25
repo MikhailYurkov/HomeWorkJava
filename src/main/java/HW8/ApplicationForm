@@ -149,6 +149,7 @@ public class ApplicationForm extends JFrame {
         /*JButton leftBracket = new OperatorJButton("(");
         leftBracket.addActionListener(buttonListener);
         panel.add(leftBracket);
+
         JButton rightBracket = new OperatorJButton(")");
         rightBracket.addActionListener(buttonListener);
         panel.add(rightBracket);*/
@@ -208,9 +209,10 @@ public class ApplicationForm extends JFrame {
     }
 
 /*    private void TestButton() {
-        Button button = new Button("??????");
+        Button button = new Button("Кнопка");
         button.addActionListener(new TestButtonListener());
-        button.addActionListener(e -> System.out.println("??????? ????? ??????"));
+        button.addActionListener(e -> System.out.println("Событие через лямбду"));
+
         super.add(button);
     }*/
 
